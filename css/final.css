@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+}
+.navbar{
+    justify-content: center;
+    margin: auto;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-right: none;
+    border-left: none;
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    }
+    
+.navbar li {
+    flex:20%;
+    }
+    
+.navbar li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    /* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+    background-color: #111;
+    color: white;
+    }
+.header{
+    display: flex;
+    flex-flow: row wrap; 
+    background-color: black;
+    
+}
+
+.logo{
+    flex: 40%;
+    display: inline-block;
+    border-right: 30px solid transparent;
+    border-bottom: 90px solid white;
+    line-height: 50px;
+    height: 0;
+    padding-left: 1em;
+}
+
+.search{
+    flex: 40%;
+    margin: auto;
+    
+    
+}
+
+input{
+    margin: 0 0 0 50%;    
+}
+
+.page-wrapper{
+    position: relative;
+    background-color: white;
+    margin: 0 auto;
+    width: 60em;
+    padding: 1.5em;
+}
+
+.background{
+    background-image: url(../images/texture3.jpg);
+    background-size: cover;
+    opacity: 0.5;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1em;
+}
+
+.left{
+    flex: 20%;
+}
+
+.right{
+    flex: 20%;
+    padding-left: 27em;
+}
+
+ul{
+    columns: 2;
+}
+
+.right li{
+    list-style-type: none;
+    padding: .25em 0;
+}
+
+header{
+    padding: 1em;
+}
